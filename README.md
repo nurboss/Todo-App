@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Todo App Using React-Redux.
 
 This project was bootstrapped with [Create React App](https://todo-app-b685f.web.app/).
 
