@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800;900&display=swap');
+html{
+    line-height: 1.15;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: #f3f7f7;
+    background-size: cover;
+    color: #222;
+}
+.app{
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+}
+.app h1{
+    font-size: 3rem;
+    display: inline;
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #576871;
+}
+
+.addTodo{
+    display: flex;
+    justify-content: center;
+}
+.todo-input{
+    min-width: 15rem;
+    width: 40vh;
+    max-height: 2.5rem;
+    background-color: #fff;
+    border: 1px solid #576871;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+}
+.todo-input:focus{
+    outline: none;
+    border: 1px solid #1ba94c;
+}
+.add-btn{
+    margin-left: 1rem;
+    background-color: #1ba94c;
+    color: #fff;
+    border: none;
+    padding: 0 15px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    box-shadow: 0 4px 12px rgb(27 169 76 / 50%);
+}
+.displaytodo{
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.displaytodo .buttons{
+    margin-bottom: 2rem;
+}
+.displaytodo .buttons button{
+    padding: 0.5rem 1.2rem;
+    cursor: pointer;
+    background-color: #1ba94c;
+    color: #fff;
+    border: none;
+    box-shadow: 0 4px 12px rgb(27 169 76 / 50%);
+}
+.displaytodo .buttons button :focus{
+    font-size: 1.5rem;
+}
+.displaytodo .buttons button:not(:last-child){
+    margin-right: 1rem;
+}
+.displaytodo ul{
+    list-style: none;
+    display: flex;
+    align-self: flex-start;
+    flex-wrap: wrap;
+    margin-left: 10%;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    border-radius: 3px;
+    background-color: #fff;
+    margin: 0 1rem 1rem 0;
+    height: 8rem;
+    padding: 1rem;
+    position: relative;
+    box-shadow: 0 4px 12px rgba(112, 112, 112, 0.219);
+
+}
+.card textarea{
+    padding: 0.5rem;
+    border-radius: 8px;
+    border: none;
+    background-color: #fff;
+
+    color: #2d2e2e;
+    height: 70%;
+    resize: none;
+}
+.card textarea:disabled{
+    background-color: transparent;
+}
+.card .btn{
+    position: absolute;
+    bottom: 0.2rem;
+    right: 0.5rem;
+}
+.card .btn button{
+    border-radius: 20%;
+    border: none;
+    margin: 0 0.6rem;
+    font-size: 1.4rem;
+    cursor: pointer;
+    color: #576871;
+    background-color: transparent;
+}
+.completed{
+    position: absolute;
+    bottom: 0.7rem;
+    left: 1rem;
+    background-color: #1ba94c;
+    color: #fff;
+    padding: 0.3rem 0.5rem;
+    border-radius: 5px;
+}
+.input-div{
+    display: flex;
+    
+}
+.header{
+    margin-top: 20px;
+}
+.logout-btn{
+    border: none;
+    background-color: #1ba94c;
+    color: #fff;
+    padding: 8px 15px;
+    box-shadow: 0 4px 12px rgb(27 169 76 / 50%);
+}
+.user-name{
+    margin: 0 10px;
+    color: #576871;
+}
+.login-title{
+    color: #1ba94c;
+}
+.todo-img{
+    height: 300px;
+    margin-bottom: 20px;
+}
