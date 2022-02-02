@@ -9,7 +9,7 @@ This project was bootstrapped with [Create React App](https://todo-app-b685f.web
 3.When your todo work will be done you can click the complete button then the todo item will go to the completed list.\
 4.You can delete any todo item by clicking the delete icon button.\
 5.You can filter out the all todo list by clicking the active button you can see how many active todo lists you have. By clicking the completed button you see how many todo items you have completed.\
-6.And the last button the all button by clicking this all button you can see all your todo items, all active or completed todo items.\
+6.And the last button the all button by clicking this all button you can see all your todo items, all active or completed todo items.
 
 ## Available Scripts
 
