@@ -4,8 +4,9 @@ This project was bootstrapped with [Create React App](https://todo-app-b685f.web
 
 ## Project Feature
 
-1.First the user has to login to get access to the todo web site. I have used the firebase authentication system for login.
+1.First the user has to login to get access to the todo web site. I have used the firebase authentication system for login.\
 2.You can add as many todo lists as you want.
+
 3.When your todo work will be done you can click the complete button then the todo item will go to the completed list.
 4.You can delete any todo item by clicking the delete icon button.
 5.You can filter out the all todo list by clicking the active button you can see how many active todo lists you have. By clicking the completed button you see how many todo items you have completed.
